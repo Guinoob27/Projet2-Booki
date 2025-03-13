@@ -25,6 +25,12 @@ body {
     box-sizing: border-box;
 }
 
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 a {
     color: inherit;
     text-decoration: none;
