@@ -24,7 +24,7 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
-
+/***********header***********/
 header {
     display: flex;
     justify-content: space-between;
@@ -33,11 +33,10 @@ header {
 
 .header_logo {
     grid-area: logo;
-
     align-self: flex-start;
     height: 100%;
     width: 80px;
-   
+    margin-left: 18px;
 }
 
 
@@ -73,6 +72,107 @@ ul{
     color: black;
     text-decoration: none;
 }
+
+/***********section recherche***********/
+
+.textes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+h1 {
+    display: flex;
+    font-size: 22px;
+    margin-top:0px;
+    margin-bottom: 8px;
+    padding-left: 18px;
+}
+p {
+   margin-left: 17px;
+   margin-top: 0px;
+   
+}
+
+.search-form {
+    display: flex;
+    margin-top: 18px;
+    margin-left: 21px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-label {
+   background-color: #F2F2F2;
+   border-radius: 15px 0 0 15px;
+   width: 50px;
+   height: 49px;
+   border: 1px solid #F2F2F2;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-sizing: border-box; 
+}
+
+.search-text input{
+    width: 198px;
+    height: 48px;
+    border: 1px solid #F2F2F2;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+    box-sizing: border-box;
+     
+}
+
+.fa-location-dot {
+    color: black;
+}
+.search-buttons-large input {
+    display: block;
+    width: 134px;
+    height: 48px;
+    margin-left: -4px;
+    padding-left: 15px;
+    border: 1px solid #0065FC;
+    border-radius: 0 15px 15px 0;
+    background: #0065FC;
+    font-weight: 700;
+    font-size: 18px;
+    color: #F2F2F2;
+    box-sizing: border-box;
+    cursor: pointer;
+    opacity: 1;
+}
+.search-buttons-large input:hover {
+
+    opacity: 1;
+}
+.search-buttons-small input {
+    display: none;
+    width: 134px;
+    height: 48px;
+    margin-left: -4px;
+    border: 1px solid #0065FC;
+    border-radius: 0 15px 15px 0;
+    background: #0065FC;
+    font-weight: 700;
+    font-size: 18px;
+    color: #F2F2F2;
+    box-sizing: border-box;
+    cursor: pointer;
+    opacity: 1;
+}
+.search-buttons-small input:hover {
+    display: none;
+    opacity: 1;
+}   
+
+.fas {
+    display: none;
+}
+   
 
 .section-title {
     margin: 0;
