@@ -16,6 +16,8 @@
 body {
     display: flex;
     justify-content: center;
+    
+    
 }
 
 .main-container {
@@ -23,6 +25,9 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
 }
 /***********header***********/
 header {
@@ -489,6 +494,48 @@ p {
     margin-left: 19px;
     padding: 30px;
 }
+
+/**********Footer********/
+.footer-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+    
+.footer-column-link {
+    width: fit-content;
+    font-size: 14px;
+    margin-top: 15px;
+}  
+.footer {
+    background-color: #F2F2F2;
+    display: flex;
+    padding: 20px;
+    margin-top: 35px;
+    margin-left: 19px;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
