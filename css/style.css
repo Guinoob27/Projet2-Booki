@@ -535,6 +535,11 @@ p {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .html {
+        min-width: 320px;
+        max-width: 1024px;
+    }
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -654,7 +659,7 @@ p {
         flex-direction: column;
    }
     .textes {
-    margin-left: 0;
+    margin-left: 15px;
     width: 100%;
    }
    .main-container {
@@ -668,7 +673,7 @@ p {
     padding-left: 15px;
    }
    .search-form {
-    padding-left: 15px;
+    margin-left: 15px;
    }
    .info-logement {
     padding-left: 15px;
