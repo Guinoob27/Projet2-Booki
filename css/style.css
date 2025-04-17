@@ -58,14 +58,13 @@ header {
 .nav a:hover {
     color: #0065FC;
     border-top: solid #0065FC 5px;
-    padding-top: 20px
+    padding-top: 12px
     
-    
-  }
+}
   .nav a {
-    text-decoration: none; /* Supprime le soulignement */
-    color: black; /* Garde une couleur standard */
-  }
+    text-decoration: none; 
+    color: black; 
+}
 ul{
     list-style: none;
     display: flex;
@@ -235,7 +234,7 @@ p {
     gap: 17px;
     font-weight: 700;
     font-size: 15px;
-    white-space: nowrap;
+    cursor: pointer;
 }
 
 .filtre-list i {
@@ -370,7 +369,7 @@ p {
     margin-top: 20px;
 }
 .hebergements-cards a {
-    width: calc(33.33% - 20px); /* 3 cartes par ligne avec un petit espace */
+    width: calc(33.33% - 20px); 
     text-decoration: none;
     display: block;
 }
@@ -388,7 +387,7 @@ p {
     text-decoration: none;
     font-weight: 700;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 40px;
     display: block;
 } 
 
@@ -522,7 +521,7 @@ p {
     padding: 20px;
     margin-top: 35px;
     margin-left: 19px;
-    width: 100%;
+    width: 96%;
     
 }
 
@@ -559,6 +558,7 @@ p {
     
         margin-left: 0;
     }
+   
 
     .populaires-cards {
         display: flex;
@@ -641,6 +641,14 @@ p {
     .header_logo {
         margin-left: 0px;
     }
+    .nav a:hover {
+        color: #0065FC;
+        border-top: none;
+        border-bottom: solid #0065FC 5px;
+        padding-bottom: 12px;
+        
+    
+    }
     
     
     .footer {
@@ -650,6 +658,7 @@ p {
         
         box-sizing: unset;
         padding: 0;
+        width: 100%;
     }
     .footer section {
         background-color: #F2F2F2;
@@ -681,12 +690,13 @@ p {
     .hebergements-and-populaires .populaires {
         width: 100%;
         margin: 0;
-        
         border-radius: 0px;
         box-sizing: unset;
         padding: 0px;
-       
-    
+    }
+
+    .hebergements-cards-see-more {
+        margin-top: 20px;
     }
 
     .filtre-list {
