@@ -24,6 +24,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
+    min-width: 320px; 
     padding: 0 50px;
     box-sizing: border-box;
     
@@ -56,8 +57,8 @@ header {
 
 }
 .nav a:hover {
-    color: #0065FC;
-    border-top: solid #0065FC 5px;
+    color: var(--main-color);
+    border-top: solid var(--main-color) 5px;
     padding-top: 12px
     
 }
@@ -108,11 +109,11 @@ p {
 }
 
 .search-label {
-   background-color: #F2F2F2;
+   background-color: var(--main-bg-color);
    border-radius: 15px 0 0 15px;
    width: 50px;
    height: 49px;
-   border: 1px solid #F2F2F2;
+   border: 1px solid var(--main-bg-color);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -122,7 +123,7 @@ p {
 .search-text input{
     width: 198px;
     height: 48px;
-    border: 1px solid #F2F2F2;
+    border: 1px solid var(--main-bg-color);
     font-weight: 700;
     font-size: 18px;
     text-align: center;
@@ -140,12 +141,12 @@ p {
     height: 48px;
     margin-left: -4px;
     padding-left: 15px;
-    border: 1px solid #0065FC;
+    border: 1px solid var(--main-color);
     border-radius: 0 15px 15px 0;
-    background: #0065FC;
+    background: var(--main-color);
     font-weight: 700;
     font-size: 18px;
-    color: #F2F2F2;
+    color: var(--main-bg-color);
     box-sizing: border-box;
     cursor: pointer;
     opacity: 1;
@@ -159,12 +160,12 @@ p {
     height: 48px;
     margin-left: -4px;
     padding-left: 15px;
-    border: 1px solid #0065FC;
+    border: 1px solid var(--main-color);
     border-radius:  15px;
-    background: #0065FC;
+    background: var(--main-color);
     font-weight: 700;
     font-size: 18px;
-    color: #F2F2F2;
+    color: var(--main-bg-color);
     box-sizing: border-box;
     cursor: pointer;
     opacity: 1;
@@ -225,7 +226,7 @@ p {
 .filtres {
     display: flex;
     border-radius: 25px;
-    border: 1px solid #DEEBFF;
+    border: 1px solid var(--filter-bg-color);
     align-items: center;
     justify-content: center;
     padding: 6px 15px;
@@ -242,7 +243,7 @@ p {
 }
 
 .filtres:hover {
-    background-color: #DEEBFF;
+    background-color: var(--filter-bg-color);
     
 
 }
@@ -257,8 +258,8 @@ p {
 }
 .info-logement i {
     display: flex;
-    color: #0065FC;
-    border: 1px solid #DEEBFF;
+    color: var(--main-color);
+    border: 1px solid var(--main-bg-color);
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
@@ -307,7 +308,7 @@ p {
 
 /******Cards********/
 ;.card {
-    background-color: #fff;
+    background-color: var(--main-bg-color);
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -516,7 +517,7 @@ p {
     margin-top: 15px;
 }  
 .footer {
-    background-color: #F2F2F2;
+    background-color: var(--main-bg-color);
     display: flex;
     padding: 20px;
     margin-top: 35px;
@@ -642,9 +643,9 @@ p {
         margin-left: 0px;
     }
     .nav a:hover {
-        color: #0065FC;
+        color: var(--main-color);
         border-top: none;
-        border-bottom: solid #0065FC 5px;
+        border-bottom: solid var(--main-color) 5px;
         padding-bottom: 12px;
         
     
@@ -661,7 +662,7 @@ p {
         width: 100%;
     }
     .footer section {
-        background-color: #F2F2F2;
+        background-color: var(--main-bg-color);
     }
    
 
@@ -673,8 +674,8 @@ p {
 
     .main-container{
         width: 100%;
-        min-width: 370px;
-        max-width: 767,98px;
+        min-width: 320px;
+        max-width: 768px;
         display: flex;
         flex-direction: column;
         padding: 0;
