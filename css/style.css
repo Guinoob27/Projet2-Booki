@@ -36,7 +36,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px
+    flex-wrap: wrap;
+    
+    
 }
 
 .header_logo {
@@ -46,29 +48,37 @@ header {
     width: 80px;
     margin-left: 18px;
 }
-
-
-.header_flex {
+.nav {
     display: flex;
-    gap: 50px;
-    text-decoration: none;
-
-}
-.nav a:hover {
-    color: var(--main-color);
-    border-top: solid var(--main-color) 5px;
-    padding-top: 12px
+    justify-content: space-between;
+    flex-direction: row;
+    width: 25%;
+    gap: 10px;
     
 }
+.header_nav_hebergements {
+    display: flex;
+    width: 115px;
+    line-height: 60px;
+}
+.header_nav_activites {
+    display: flex;
+    width: 66px;
+    line-height: 60px;
+    
+}
+
 .nav a {
     text-decoration: none; 
     color: black; 
     
 }
-
-.nav{
+.nav a:hover {
+    color: var(--main-color);
+    border-top: solid var(--main-color) 3px;
     
 }
+
 
 
 ul{
@@ -128,12 +138,13 @@ p {
 .search-text input{
     width: 198px;
     height: 47px;
-    border: 1px solid var(--main-bg-color);
+    border: solid var(--main-bg-color) 0.5px;
     font-weight: 700;
     font-size: 18px;
     text-align: center;
     align-content: center;
     box-sizing: border-box;
+    color: black;
      
 }
 
@@ -144,8 +155,8 @@ p {
     display: block;
     width: 134px;
     height: 48px;
-    margin-left: -4px;
-    padding-left: 15px;
+    margin-left: 0px;
+    padding-left: 5px;
     border: 1px solid var(--main-color);
     border-radius: 0 15px 15px 0;
     background: var(--main-color);
@@ -637,7 +648,7 @@ p {
     .header {
         display: flex;
         flex-direction: column;
-        border-bottom: solid var(--main-bg-color)3px;
+        
         padding-bottom: 12px;
         margin-top: 10px;
         margin-right: 0px;
@@ -651,28 +662,35 @@ p {
         display: flex;
         min-width: 320px;
         max-width: 768px;
-        justify-content: space-between;
+        width: 100%;
+        gap: 0px;
+        justify-content: center;
+    }
+    .header_nav_hebergements {
+        display: block;
+        width: 100%;
+        text-align: center;
+        border-bottom: solid var(--main-bg-color)3px;
+    }
+    .header_nav_activites {
+        display: block;
+        width: 100%;
+        text-align: center;
+        border-bottom: solid var(--main-bg-color)3px;
 
     }
     
+    
   
     
-    .header_flex {
-        display: flex;
-        flex-direction: row; 
-        align-items: center;
-        padding-top: 5px;
-        margin-left: 0px;
-        padding-left: 5px;
-        gap: 100px;
-        height: auto;
-    }
+    
     .header_logo {
         margin-left: 0px;
     }
     .nav a:hover {
         color: var(--main-color);
         border-top: none;
+        border-bottom: solid var(--main-color) 3px;
     }
     
     
