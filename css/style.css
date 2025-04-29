@@ -718,7 +718,16 @@ p {
         width: 95%;
     }
 
+    .search-form {
+        justify-content: center;
 
+    }
+    .search-text input {
+        width: 100%;
+    }
+    .search-text {
+        width: 65%;
+    }
     .main-container{
         width: 100%;
         min-width: 320px;
